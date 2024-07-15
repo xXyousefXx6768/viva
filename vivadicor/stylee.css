@@ -1,0 +1,477 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero-section {
+    margin-top: 8rem;
+    margin-left: 3rem
+
+}
+
+.info {
+    width: 32rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+tit {
+    width: 35rem;
+}
+
+.logo {
+    margin-left: 4rem;
+}
+
+.sec-col .b {
+    height: 8rem;
+}
+
+.b1 {
+    padding: 2rem;
+    width: 60%;
+}
+
+
+    .two::before {
+        margin-left: 11px;
+        content: "";
+        position: absolute;
+        top: -3%;
+        left: -4%;
+        width: 18%;
+        height: 42%;
+        background-color: white;
+        border: 2px solid black;
+        z-index: -1;
+}
+
+.two {
+    position: relative;
+    display: inline-block;
+}
+
+.two img {
+    display: block; /* Remove bottom space under image */
+    width: 100%; /* Ensure image is responsive */
+    height: auto; /* Ensure image maintains aspect ratio */
+    position: relative; /* Ensure image is above ::before */
+}
+.span-box span{
+    width: 3rem;
+    height: 4rem;
+}
+.span-box{
+    right: 5px;
+    bottom: 5px;
+}
+.service-section{
+    margin-left: 3rem;
+}
+.service-title{
+    margin-left: 1.5rem
+}
+.arti{
+    margin-left: 3rem;
+}
+.service-title h3::before{
+height: 3px;
+align-self: center;
+margin-right: 2rem;
+content: ''; 
+display: flex; 
+width: 4rem;
+background-color: black;
+
+}
+.img2 {
+    width: 50%;
+    
+}
+.info-2{
+    width: 29rem;
+}
+.accordion-item{
+    width: 60%;
+}
+
+.t{
+    width: 260px;
+}
+.box{
+    width: fit-content;
+}
+.sec4-title {
+    width: 334px;
+}
+.section4{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    justify-content: space-evenly;
+}
+
+.accordion-button::after {
+    content: '';
+    width: 0;
+}
+
+/* Add custom plus icon */
+.accordion-button::after {
+    content: '\f067'; /* Unicode for Font Awesome plus icon */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+/* Change icon when accordion is expanded */
+.accordion-button:not(.collapsed)::after {
+    content: '\f068'; /* Unicode for Font Awesome minus icon */
+}
+.img-3{
+    width: 60%;
+    height: 50%;
+}
+.process-title h2{
+    width: 400px;
+}
+articale p{
+    width: 364px;
+}
+.process-first{
+    margin-left: 8rem;
+}
+
+.span1{
+    content: '';
+    width: 3px;
+    height: 4rem;
+    background-color: rgba(26, 25, 25, 0.425);
+    display: flex;
+    align-self: center;
+}
+.span2{
+    align-self: center;
+    width: 3px;
+    height: 4rem;
+    background-color: rgba(26, 25, 25, 0.425);
+    display: flex;
+}
+.sp{
+
+    width: 3rem;
+    height: 3rem;
+    background-color: black;
+}
+.sp span i{
+    color:white ;
+    font-size: 1rem;
+}
+.af{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    
+}
+.testimonials {
+    margin: 50px 0;
+}
+
+.title-5 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row.align-items-center {
+    /* Add gap between the columns */
+}
+
+.position-relative {
+    position: relative; /* Ensure relative positioning */
+}
+
+.position-relative .overlay-box {
+    top: 55%;
+    left: 180px;
+    transform: translateY(-50%);
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7); /* Optional: to make the background semi-transparent */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
+
+.bg-dark {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.quote i {
+    font-size: 24px;
+}
+
+.info-5 p {
+    margin-bottom: 10px;
+}
+
+.profile h5 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.profile span {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.s1{
+    
+    margin-right: 3px;
+}
+.r{
+    padding: 5px;
+    padding-top: 4px;
+    background-color: rgb(196, 207, 207);
+}
+inputbox{
+    -webkit-box-shadow: 0px 8px 30px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 30px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 8px 30px -4px rgba(0,0,0,0.75);
+}
+input{
+    border-color: transparent;
+    width: 56%;
+}
+.footer {
+    margin: 50px 0;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute columns evenly */
+    gap: 20px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px; /* Ensure columns don't shrink too small */
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 100px; /* Adjust as needed */
+    margin-bottom: 2rem;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-icons {
+    gap: 10px; /* Add space between icons */
+}
+
+.footer-icons i {
+    font-size: 24px; /* Adjust as needed */
+}
+
+.footer h5 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 0 0 1rem 0;
+}
+
+@media (max-width: 767.98px) {
+    .footer-col {
+        flex: 1 1 100%; /* Ensure full width on smaller screens */
+        max-width: 100%;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1199px) {
+    .position-relative .overlay-box {
+        top: 61%;
+        left: 153px;
+    }
+}
+@media (max-width: 1077px) {
+    .testimonials .row{
+        flex-direction: column;
+    }
+}
+@media (max-width: 991px) {
+
+    .hero-section{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+    }
+    .service-section{
+        margin-left: 0;
+    }
+    .i-2{
+        margin-left: 2rem;
+    }
+    tit {
+        width: inherit;
+    }
+    .b{
+        justify-content: center;
+    }
+    .position-relative .overlay-box {
+        left: 41px;
+        top: 59%;
+    }
+    .sec4-title {
+        width: inherit;
+    }
+    .info-2{
+        width: 50%;
+    }
+    #accordionFlushExample{
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    }
+    .accordion{
+   flex-direction: column;
+    display: flex;
+    width: 56%;
+    }
+    .boxs{
+        margin-top: 6rem;
+    }
+    .service-title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    }
+    .section4{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sec4-title{
+        margin-top: 4rem;
+        font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
+    }
+    .arti{
+        margin-left: 0;
+        align-items: center;
+    }
+    .process-section{
+        flex-direction: column;
+    }
+    .img-3{
+        width: 100%;
+    }
+    .process-first{
+        align-items: center;
+        margin-left: 0;
+    }
+
+    }
+    @media (max-width: 767px) {
+        counter{
+            flex-direction: column;
+            margin-bottom: 7rem;
+        }
+            .info{
+                width: inherit;
+            }
+        .position-relative .overlay-box {
+            left: 169px;
+            top: 52%;
+        }
+       
+        }
+      @media  (max-width: 500px) {
+        .process-first articale p{
+            width: inherit;
+        }
+      }
+
+
+
+      @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .animated-text, .animated-img {
+        opacity: 0;
+    }
+    
+    .animated-text.animate {
+        animation: fadeIn 2s forwards;
+    }
+    
+    .animated-img.animate {
+        animation: fadeInUp 1s forwards;
+        animation-delay: 0.5s;
+    }
+    
+    /* Delay animations for elements */
+    .first-col .animated-text:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+    
+    .first-col .animated-text:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+    
+    .first-col .animated-text:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+    
+    .first-col .animated-text:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+    
+    .first-col .animated-text:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+    
+    @media (max-width: 767.98px) {
+        .animated-text.animate, .animated-img.animate {
+            animation-duration: 1.2s;
+        }
+    }
+    
